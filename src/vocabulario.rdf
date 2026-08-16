@@ -926,155 +926,6 @@
     
 
 
-    <!-- http://vocab.getty.edu/aat/300007999 -->
-
-    <owl:Class rdf:about="http://vocab.getty.edu/aat/300007999">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T23:59:15Z</terms:created>
-        <terms:title xml:lang="pt">&lt;construções individuais segundo sua localização ou contexto&gt;</terms:title>
-    </owl:Class>
-    
-
-
-    <!-- http://vocab.getty.edu/aat/300008018 -->
-
-    <owl:Class rdf:about="http://vocab.getty.edu/aat/300008018">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="http://vocab.getty.edu/aat/300007999"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="http://vocab.getty.edu/aat/300007999"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
-                <owl:someValuesFrom rdf:resource="http://vocab.getty.edu/aat/300007999"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-04T00:00:55Z</terms:created>
-        <terms:title xml:lang="pt">&lt;construções individuais segundo sua localização: topográfica&gt;</terms:title>
-    </owl:Class>
-    
-
-
-    <!-- http://vocab.getty.edu/aat/300386958 -->
-
-    <owl:Class rdf:about="http://vocab.getty.edu/aat/300386958">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://vocabulario.tradicional.arq.br/000000007"/>
-        <owl:disjointWith rdf:resource="http://vocabulario.tradicional.arq.br/000000008"/>
-        <owl:disjointWith rdf:resource="http://vocabulario.tradicional.arq.br/000000009"/>
-        <owl:disjointWith rdf:resource="https://vocab.getty.edu/aat/300008057"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:38:23Z</terms:created>
-        <terms:title xml:lang="pt">construções destruídas</terms:title>
-    </owl:Class>
-    
-
-
-    <!-- http://vocab.getty.edu/aat/300386961 -->
-
-    <owl:Class rdf:about="http://vocab.getty.edu/aat/300386961">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:41:41Z</terms:created>
-        <terms:title xml:lang="pt">construções abandonadas</terms:title>
-    </owl:Class>
-    
-
-
-    <!-- http://vocab.getty.edu/aat/300418052 -->
-
-    <owl:Class rdf:about="http://vocab.getty.edu/aat/300418052">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
-        <terms:created>2025-09-03T20:42:52Z</terms:created>
-        <terms:title xml:lang="pt">construções reconstituídas</terms:title>
-    </owl:Class>
-    
-
-
     <!-- http://vocabulario.tradicional.arq.br#000000012 -->
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000012">
@@ -1104,7 +955,7 @@
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000013">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <terms:created>2026-04-05D16:54:53Z</terms:created>
-        <terms:creator>https://orcid.org/my-orcid?orcid=0009-0002-8934-6608</terms:creator>
+        <terms:creator>https://orcid.org/0009-0002-8934-6608</terms:creator>
         <terms:language xml:lang="pt">Dividir em bairros. Abairrar em povoação ou classificar por bairros.</terms:language>
         <terms:title xml:lang="pt">Abairrar</terms:title>
     </owl:Class>
@@ -1130,6 +981,122 @@
     
 
 
+    <!-- http://vocabulario.tradicional.arq.br#000000016 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000016">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>https://orcid.org/0009-0002-8934-6608</terms:creator>
+        <terms:description xml:lang="pt-br">Ação de arruar, de dispor em ruas. Projetar ruas em loteamento. Executar ruas na cidade.</terms:description>
+        <terms:title xml:lang="pt-br">Arruamento</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#000000017 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000017">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>https://orcid.org/0009-0002-8934-6608</terms:creator>
+        <terms:description xml:lang="pt-br">Em certas envasaduras, principalmente nas dos século XIX, chama-se bandeira o caixilho, fixo ou móvel, situado na parte superior das portas ou janelas.</terms:description>
+        <terms:title xml:lang="pt-br">Bandeira</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#000000018 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000018">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>https://orcid.org/0009-0002-8934-6608</terms:creator>
+        <terms:description xml:lang="pt-br">Antiga medida de extensãoequivalente a 8 polegadas ou 0,225m. Medida tomada com a mão aberta, e que vai de estremidade do dedo polegar à ponta do dedo mínimo. &quot;Palmo craveiro&quot;, segundo o padrão da câmara de Lisboa. O côvado tinha três palmos craveiros.</terms:description>
+        <terms:title xml:lang="pt-br">palmo</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#000000019 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000019">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300125479"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300125479"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>https://orcid.org/0009-0002-8934-6608</terms:creator>
+        <terms:description xml:lang="pt-br">Nome do esqueleto de mandeira das paredes externas de uma construção, com posto de peças verticais, horizontais e inclinadas convenientemente ligadas entre si, constituindo sistema estável. Posteriormente os vãos existentes são preechidos com alvenaria ordinária ou com miúda, constituída de cacis de telha ou tijolos argamassados. Parede FRONTAL. Omesmo que cárcere ou prisão. Janela gradeada. Nome de edifício construído às pressas e com materiais inferiores, sujeito a desabamento, casa pequena, casinholaa.</terms:description>
+        <terms:title xml:lang="pt-br">gaiola</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#000000020 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000020">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <terms:created>2026-08-15D00:00:00Z</terms:created>
+        <terms:description xml:lang="pt-br">Designação genérica aplicada aos alicerces de alvenaria em geral ou às vigas de concreto armado que correm as fundações de qualquer tipo. Também chama-se de baldrame a peça de madeira deitada ao longo dos alicerces de alvenaria que recebe o vigamento dos assoalhos. É a viga de madeira ensamblada nos esteios sobre a qual se apoia numa parede de vedação, desde a de taipa de mão até a de alvenaria.</terms:description>
+        <terms:title xml:lang="pt-br">Baldrame</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#000000021 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000021">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <terms:created>2026-08-15D00:00:00Z</terms:created>
+        <terms:description xml:lang="pt-br">Peça de madeira, ferro, pedra, etc. usada para segurar ou amparar alguma coisa. Em geral o termo é mais empregado para designar estaca com que se sustenta ou escora o teto ou uma parede. Diz-se &quot;os esteios dos cunhais&quot;, isto é, as estacas situadas nos cantos externos das construções, sobre as quais cruzam-se os frechais.</terms:description>
+        <terms:title xml:lang="pt-br">Esteio</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#000000022 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000022">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <terms:created>2026-08-15D00:00:00Z</terms:created>
+        <terms:description xml:lang="pt-br">Nos telhados que vencem vãos grandes, sem o auxílio de paredes internas, nome do sistema estrutural triangular indeformável que sustenta a cobertura propriamente dita.</terms:description>
+        <terms:title xml:lang="pt-br">Tesoura</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#000000023 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000023">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <terms:created>2026-08-15D00:00:00Z</terms:created>
+        <terms:description xml:lang="pt-br">Diminutivo de pilar.</terms:description>
+        <terms:title xml:lang="pt-br">Pilarete</terms:title>
+    </owl:Class>
+    
+
+
     <!-- http://vocabulario.tradicional.arq.br#300001699 -->
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300001699">
@@ -1141,6 +1108,73 @@
     
 
 
+    <!-- http://vocabulario.tradicional.arq.br#300001749 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300001749">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300001749</terms:creator>
+        <terms:description xml:lang="pt-br">Elementos de suporte retangulares ou quadrados, ou blocos inferiores, como colunas, pilastras ou caixilhos de portas; também bases monumentais maciças, frequentemente ornamentadas, usadas para suportar estátuas ou memoriais. Para as bases de paredes externas ou as fiadas de base em forma de plataforma de edifícios, use &quot;fiadas de plinto&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Embasamento (plintos)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300001783 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300001783">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300001783</terms:creator>
+        <terms:description xml:lang="pt-br">Tiras planas em arquitraves jônicas e coríntias. Para tábuas pregadas nas extremidades das vigas em construções de madeira, use &quot;tábuas de beiral&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Cimalha (fáscias (componentes de arquitrave))</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300001838 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300001838">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300001838</terms:creator>
+        <terms:description xml:lang="pt-br">Elementos colocados transversalmente na parte interna de um ângulo em uma estrutura para adicionar rigidez à mesma, como entre elementos de telhado e elementos de parede.</terms:description>
+        <terms:title xml:lang="pt-br">Mão-francesa</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002214 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002214">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300002726"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300002726"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002214</terms:creator>
+        <terms:description xml:lang="pt-br">As figuras ou ornamentos nos ângulos inferiores ou no ápice de um frontão, geralmente apoiados em plintos.</terms:description>
+        <terms:title xml:lang="pt-br">Acrotério</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002232 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002232">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002232</terms:creator>
+        <terms:description xml:lang="pt-br">Estruturas que se projetam de um telhado inclinado geralmente abrigam uma janela ou veneziana de ventilação.</terms:description>
+        <terms:title xml:lang="pt-br">Água-furtada</terms:title>
+    </owl:Class>
+    
+
+
     <!-- http://vocabulario.tradicional.arq.br#300002268 -->
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002268">
@@ -1148,6 +1182,378 @@
         <terms:creator>http://vocab.getty.edu/page/aat/300002268</terms:creator>
         <terms:description xml:lang="pt-br">Refere-se às porções horizontais de um telhado inclinado que se projetam além das paredes. Para as porções do telhado que se projetam além do frontão, use &quot;beiral&quot;.</terms:description>
         <terms:title xml:lang="pt">Beiral</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002370 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002370">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002370</terms:creator>
+        <terms:description xml:lang="pt-br">Ângulos internos em um telhado formados pelo encontro de duas águas.</terms:description>
+        <terms:title xml:lang="pt-br">Rincão</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002403 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002403">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002403</terms:creator>
+        <terms:description xml:lang="pt-br">Elementos longitudinais nos vértices dos telhados que suportam as extremidades superiores das vigas.</terms:description>
+        <terms:title xml:lang="pt-br">Cumeeira</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002425 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002425">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002425</terms:creator>
+        <terms:description xml:lang="pt-br">Vigas que formam um ângulo reto com a beira do telhado e se estendem da placa até a cumeeira.</terms:description>
+        <terms:title xml:lang="pt-br">vigas comuns</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002431 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002431">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002431</terms:creator>
+        <terms:description xml:lang="pt-br">Vigas colocadas na junção dos planos inclinados que formam os telhados de quatro águas.</terms:description>
+        <terms:title xml:lang="pt-br">Espigão (caibros)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002538 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002538">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002538</terms:creator>
+        <terms:description xml:lang="pt-br">Paredes internas que separam uma parte de um espaço de outra; às vezes paredes internas permanentes que dividem edifícios em vários cômodos, outras vezes projetadas para se moverem e abrirem um espaço. Para elementos que não sejam paredes e que dividam espaços internos, frequentemente incorporando estantes, armários ou gavetas, use &quot;divisórias de ambiente&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Oitão (partições (paredes internas))</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002588 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002588">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002588</terms:creator>
+        <terms:description xml:lang="pt-br">Plataformas com corrimão que se projetam das paredes externas dos edifícios. Use também para elementos internos semelhantes, quando pequenos. Para plataformas maiores que se estendem por toda a lateral de uma sala ou que ficam recuadas atrás de uma arcada, use &quot;galerias (espaços do nível superior)&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">varandas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002696 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002696">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002696</terms:creator>
+        <terms:description xml:lang="pt-br">Na arquitetura islâmica, as janelas eram preenchidas com grades ou telas de madeira torneada. Para treliças ou telas de pedra perfurada, na arquitetura islâmica, especialmente na Índia Mughal, usa-se &quot;jali&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">muxarabi</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002726 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002726">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002726</terms:creator>
+        <terms:description xml:lang="pt-br">Paredes triangulares com empena acima da cornija horizontal de um edifício de estilo clássico; também, elementos triangulares ou aproximadamente triangulares, por vezes curvos ou interrompidos no centro, que coroam pórticos ou aberturas. Comuns também em mobiliário, incluindo como tampos de capota.</terms:description>
+        <terms:title xml:lang="pt-br">frontões</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002737 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002737">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002737</terms:creator>
+        <terms:description xml:lang="pt-br">Pilares rasos ou colunas retangulares que se projetam ligeiramente da parede e, na arquitetura clássica, seguem uma das ordens arquitetônicas. Comuns também em móveis.</terms:description>
+        <terms:title xml:lang="pt-br">Pilastra</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002800 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002800">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002800</terms:creator>
+        <terms:description xml:lang="pt-br">Tiras fixadas ao chão sob uma porta, geralmente necessárias para cobrir a junção entre dois tipos de piso; podem fornecer proteção contra intempéries em portas externas; para as laterais inferiores e a parte inferior das portas, use &quot;soleiras&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Soleira (limiares)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300002932 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002932">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300002932</terms:creator>
+        <terms:description xml:lang="pt-br">Portas ou portões secundários, muitas vezes discretos, especialmente em recintos fortificados ou murados; também podem ser usados ​​para entradas menores, privadas ou laterais.</terms:description>
+        <terms:title xml:lang="pt-br">Postigo</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300003009 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003009">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300003009</terms:creator>
+        <terms:description xml:lang="pt-br">Janelas de batente, fixas ou articuladas, com montantes dispostos diagonalmente.</terms:description>
+        <terms:title xml:lang="pt-br">rótula (janelas de treliça)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300003092 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003092">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300003092</terms:creator>
+        <terms:description xml:lang="pt-br">Barras ou pilares delgados, verticais, geralmente não estruturais, que formam uma divisão entre portas, divisórias ou painéis de janelas; para os pequenos elementos que dividem as áreas envidraçadas e suportam os painéis ou as verticais que separam os painéis em portas de painéis, use &quot;montantes&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">montantes</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300003115 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003115">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300003115</terms:creator>
+        <terms:description xml:lang="pt-br">Cortinas horizontais fixadas na parte superior de uma abertura; geralmente usadas como cabeçalhos decorativos para ocultar a parte superior das cortinas e seus acessórios.</terms:description>
+        <terms:title xml:lang="pt-br">Lambrequim (bandôs)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300003146 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003146">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300003146</terms:creator>
+        <terms:description xml:lang="pt-br">Elementos verticais em ambos os lados de batentes de portas, janelas ou similares.</terms:description>
+        <terms:title xml:lang="pt-br">Ombreira (jambas (componentes de abertura))</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300003176 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003176">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300003176</terms:creator>
+        <terms:description xml:lang="pt-br">Persianas com lâminas fixas que se inclinam para cima a partir do exterior, de modo a bloquear o sol e a chuva, permitindo a entrada de ar e alguma luz. Para persianas semelhantes com lâminas móveis, utilize o termo &quot;persianas venezianas&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Gelosia (persianas)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300003545 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003545">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300003545</terms:creator>
+        <terms:description xml:lang="pt-br">Molduras planas, retangulares e horizontais.</terms:description>
+        <terms:title xml:lang="pt-br">Platibanda</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300003610 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003610">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300003610</terms:creator>
+        <terms:description xml:lang="pt-br">Blocos de alvenaria em balanço usados ​​individualmente ou em conjuntos para suportar elementos arquitetônicos ou ornamentais, ou usados ​​em fiadas sucessivas para formar arcos, cúpulas ou abóbadas; quando se refere de forma geral às fiadas de alvenaria salientes, prefere-se &quot;fiadas sobrepostas&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Cachorro</terms:title>
+        <rdfs:comment xml:lang="pt-br">Também referido como &quot;mísulas&quot; em terminologia técnica geral.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300004054 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004054">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300004054</terms:creator>
+        <terms:description xml:lang="pt-br">Utilize para delimitar pequenos espaços recuados em salas maiores.</terms:description>
+        <terms:title xml:lang="pt-br">Alcova</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300004095 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004095">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300004095</terms:creator>
+        <terms:description xml:lang="pt-br">Áreas descobertas, cercadas ou parcialmente cercadas pelas paredes de um edifício. Um espaço livre delimitado por paredes ou cercado por edifícios.</terms:description>
+        <terms:title xml:lang="pt-br">Terreiro (pátios)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300004132 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004132">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300004132</terms:creator>
+        <terms:description xml:lang="pt-br">Espaços cobertos, abertos em um ou mais lados, adjacentes a uma edificação, geralmente servindo para abrigar uma entrada ou como espaço de estar; no contexto luso-brasileiro, corresponde ao termo local &quot;alpendre&quot;.</terms:description>
+        <terms:title xml:lang="pt">Alpendre</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300004182 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004182">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300004095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300004095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300004182</terms:creator>
+        <terms:description xml:lang="pt-br">Áreas pavimentadas ou ajardinadas niveladas, geralmente elevadas em relação ao terreno circundante e adjacentes a edifícios ou partes de complexos de jardins, ou, se estiverem dentro de um edifício, nos andares superiores ou no telhado.</terms:description>
+        <terms:title xml:lang="pt-br">Eirado (terraços)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300004283 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004283">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300004283</terms:creator>
+        <terms:description xml:lang="pt-br">Espaços relativamente estreitos projetados para facilitar o acesso; geralmente espaços interiores.</terms:description>
+        <terms:title xml:lang="pt-br">corredores</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300004627 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004627">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300004627</terms:creator>
+        <terms:description xml:lang="pt-br">Refere-se à parte central principal de um interior, dividida em um núcleo alto com porções laterais mais baixas, separadas por colunas ou pilares, geralmente, mas nem sempre, em uma igreja. Também pode ser usado para a parte principal de uma igreja sem naves laterais, mas com um presbitério distinto.</terms:description>
+        <terms:title xml:lang="pt-br">naves</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300005582 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300005582">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300005582</terms:creator>
+        <terms:description xml:lang="pt-br">Refere-se às residências principais, e geralmente maiores, nas plantações.</terms:description>
+        <terms:title xml:lang="pt-br">Casa-grande (casas de plantação)</terms:title>
     </owl:Class>
     
 
@@ -1170,6 +1576,418 @@
         <rdfs:comment xml:lang="pt-br">Antigas torres de templos mesopotâmicos em forma de pirâmides escalonadas.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300007626</rdfs:label>
         <rdfs:seeAlso>http://vocab.getty.edu/page/aat/300007626</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300007872 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300007872">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300007872</terms:creator>
+        <terms:description xml:lang="pt-br">Estruturas de treliça de madeira que transportam uma estrada ou linha férrea sobre um rio ou outro obstáculo, caracterizadas pelo telhado e laterais que formam um fechamento quase completo para proteger os elementos estruturais de madeira das intempéries. Não há evidências de pontes de treliça de madeira, com ou sem cobertura, no mundo antigo; no entanto, existem desenhos de pontes cobertas que datam do século XIV e posteriores na Europa. Na América do Norte, as pontes de madeira cobertas eram comuns do século XVIII até o início do século XX, embora estivessem sendo gradualmente substituídas por pontes de treliça metálica, que não necessitavam de cobertura.</terms:description>
+        <terms:title xml:lang="pt-br">Passadiço (pontes cobertas)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300010525 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300010525">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300010525</terms:creator>
+        <terms:description xml:lang="pt-br">Um tijolo que atende às especificações para uma unidade de alvenaria maciça.</terms:description>
+        <terms:title xml:lang="pt-br">tijolo maciço</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300010713 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300010713">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300010713</terms:creator>
+        <terms:description xml:lang="pt-br">Na arquitetura antiga, o termo era usado para descrever uma telha plana ou tégula. No uso moderno, refere-se a uma telha de cobertura em forma de S, assentada de modo que a curvatura descendente de uma telha se sobreponha à curvatura ascendente da seguinte.</terms:description>
+        <terms:title xml:lang="pt-br">Telha Canal (ou Coxa) (telha de barro)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300011677 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300011677">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300011677</terms:creator>
+        <terms:description xml:lang="pt-br">Um fragmento de rocha, arredondado ou desgastado de alguma outra forma, com diâmetro entre 64 e 256 mm, sendo maior que um seixo e menor que um bloco rochoso. O termo também pode se referir mais especificamente a uma pedra arredondada adequada para uso em pavimentação ou outras construções.</terms:description>
+        <terms:title xml:lang="pt-br">Pé-de-moleque (calçada)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300011684 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300011684">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300011684</terms:creator>
+        <terms:description xml:lang="pt-br">Pedras soltas encontradas no chão ou no solo.</terms:description>
+        <terms:title xml:lang="pt-br">Calhau</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300011701 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300011701">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300011701</terms:creator>
+        <terms:description xml:lang="pt-br">Pedra de pequenas dimensões com superfície plana, geralmente quadrada ou retangular.</terms:description>
+        <terms:title xml:lang="pt-br">Cantaria (alvenaria)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300014362 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300014362">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300014365"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300014365"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300014362</terms:creator>
+        <terms:description xml:lang="pt-br">Material de construção constituído por terra ou argila compactadas entre formas.</terms:description>
+        <terms:title xml:lang="pt-br">pisé</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300014365 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300014365"/>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300015042 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300015042">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300015042</terms:creator>
+        <terms:description xml:lang="pt-br">Tinta cujos principais ingredientes são água e pasta de cal; um dos tipos de tinta mais antigos, usada tanto para superfícies externas quanto internas.</terms:description>
+        <terms:title xml:lang="pt-br">cal (tinta à base de água)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300015334 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300015334">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300015334</terms:creator>
+        <terms:description xml:lang="pt-br">Material de construção composto por alvenaria de pedra.</terms:description>
+        <terms:title xml:lang="pt-br">alvenaria</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300053060 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300053060">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300053060</terms:creator>
+        <terms:description xml:lang="pt-br">A ação ou processo de revestir uma superfície, como uma parede, com cal: uma substância mineral em pó, como hidróxido de cálcio ou giz, suspensa em água, frequentemente com cola ou outros ingredientes.</terms:description>
+        <terms:title xml:lang="pt-br">Caiadura</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300070138 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300070138">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300004182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300004182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300070138</terms:creator>
+        <terms:description xml:lang="pt-br">Pavilhões em coberturas projetados como mirantes ou para apreciar a vista. Para plataformas sem cobertura, use &quot;mirantes&quot;; para estruturas em coberturas que sejam principalmente ornamentais, use &quot;cúpulas&quot;; para pequenos pavilhões, em um jardim, projetados para apreciar a vista, use &quot;gazebos&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Camarinha (mirantes)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300080798 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300080798">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300080798</terms:creator>
+        <terms:description xml:lang="pt-br">Refere-se a espaços com vários andares e claraboias, localizados dentro ou entre edifícios altos, comuns desde 1960.</terms:description>
+        <terms:title xml:lang="pt-br">átrios (espaços interiores)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300120766 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300120766">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300120766</terms:creator>
+        <terms:description xml:lang="pt-br">Use apenas para residências urbanas individuais e independentes. Para residências urbanas geminadas, cada uma com sua própria entrada privativa, use &quot;casas em série&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Sobrado (casas geminadas)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300125479 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300125479">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300125479</terms:creator>
+        <terms:description xml:lang="pt-br">A técnica vernacular de construção consiste em preencher os espaços entre as vigas de sustentação com tijolos, taipa ou outros materiais. O termo também é usado para descrever construções com uma estrutura de madeira falsa fixada na parede externa, conferindo a aparência de uma construção em enxaimel.</terms:description>
+        <terms:title xml:lang="pt-br">Enxaimel</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300163929 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300163929">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300163929</terms:creator>
+        <terms:description xml:lang="pt-br">Construção constituída por postes ou estacas verticais entrelaçados com galhos ou ramos de árvores e rebocados com uma mistura de argila e palha.</terms:description>
+        <terms:title xml:lang="pt-br">Pau-a-pique (taipa de pilão)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300198989 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300198989">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300198989</terms:creator>
+        <terms:description xml:lang="pt-br">Instrumentos que medem e indicam o valor de uma quantidade de algo, como gás, líquido, milhas ou tempo.</terms:description>
+        <terms:title xml:lang="pt-br">metro (instrumento de medição)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300266766 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300266766">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300266766</terms:creator>
+        <terms:description xml:lang="pt-br">Janelas em caixilho deslizante, com folha de abertura vertical ou horizontal, mas geralmente não janelas de guilhotina dupla.</terms:description>
+        <terms:title xml:lang="pt-br">Caixilho (janelas de guilhotina)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300379097 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300379097">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300379097</terms:creator>
+        <terms:description xml:lang="pt-br">Unidades de comprimento iguais a 0,001 metro, 0,3937 polegadas.</terms:description>
+        <terms:title xml:lang="pt-br">milímetro</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300379098 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300379098">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300379098</terms:creator>
+        <terms:description xml:lang="pt-br">No sistema métrico, as unidades de comprimento equivalem a 1/100 de um metro, ou 0,3937 polegadas (quase 2/5).</terms:description>
+        <terms:title xml:lang="pt-br">centímetro</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300386877 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300386877">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300386877</terms:creator>
+        <terms:description xml:lang="pt-br">Um tipo de gesso composto de óxido de cálcio (cal). O gesso de cal é usado desde a antiguidade, sendo preparado pelo aquecimento do calcário para remover o dióxido de carbono e convertê-lo em óxido de cálcio anidro (cal viva). Quando a cal viva é misturada com água, ela se transforma em hidróxido de cálcio (cal hidratada).</terms:description>
+        <terms:title xml:lang="pt-br">Estuque</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300404401 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300404401">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300404401</terms:creator>
+        <terms:description xml:lang="pt-br">Unidades métricas de área; área de um quadrado com lados que medem um metro.</terms:description>
+        <terms:title xml:lang="pt-br">metro quadrado</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300410343 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300410343">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300410343</terms:creator>
+        <terms:description xml:lang="pt-br">Obras visuais compostas por azulejos ou que utilizam azulejos como meio principal. Para obras em que um azulejo individual serve de suporte para um desenho ou imagem, utilize &quot;azulejos artísticos (obras visuais)&quot;. As obras com azulejos podem incorporar azulejos decorados ou podem ser compostas por azulejos sem decoração.</terms:description>
+        <terms:title xml:lang="pt-br">Azulejaria Trabalho com azulejos (obras visuais)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300440767 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300440767">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300440767</terms:creator>
+        <terms:description xml:lang="pt-br">Anexos utilizados para cozinhar, especialmente durante os meses quentes de verão, quando era desejável manter o calor do fogão e do forno fisicamente separado do resto da casa e dos aposentos.</terms:description>
+        <terms:title xml:lang="pt-br">Cozinha de fumaça</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300445666 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300445666">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <terms:creator>http://vocab.getty.edu/page/aat/300445666</terms:creator>
+        <terms:description xml:lang="pt-br">Seções de nova construção anexadas a uma obra existente, com a função de adicionar uma extensão ou aumentar a área ou altura de um edifício existente além do seu perímetro original.</terms:description>
+        <terms:title xml:lang="pt-br">Adição/Acréscimo</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300451680 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300451680">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300451680</terms:creator>
+        <terms:description xml:lang="pt-br">Residências separadas por uma parede comum, geralmente de madeira. Podem ter resultado da divisão de uma residência maior em duas. Distinguem-se das casas geminadas (casas semi-isoladas), que compreendem duas residências separadas, mas imediatamente adjacentes, frequentemente em duas propriedades, separadas por paredes divisórias de alvenaria. Uma característica distintiva mais facilmente identificável pode ser a porta de entrada; casas geminadas podem ter uma única porta de entrada com um hall de entrada comum, enquanto uma casa semi-isolada</terms:description>
+        <terms:title xml:lang="pt-br">Meia-morada (casas geminadas)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br#300457778 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300457778">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:creator>http://vocab.getty.edu/page/aat/300457778</terms:creator>
+        <terms:description xml:lang="pt-br">Grandes casas ou propriedades rurais na Espanha, Portugal e América Latina, localizadas no campo ou nos arredores de uma cidade; podem estar associadas a vinhedos ou fazendas de gado.</terms:description>
+        <terms:title xml:lang="pt-br">Quinta</terms:title>
     </owl:Class>
     
 
@@ -1315,6 +2133,7 @@
         <owl:disjointWith rdf:resource="http://vocabulario.tradicional.arq.br/000000008"/>
         <owl:disjointWith rdf:resource="http://vocabulario.tradicional.arq.br/000000009"/>
         <owl:disjointWith rdf:resource="https://vocab.getty.edu/aat/300008057"/>
+        <owl:disjointWith rdf:resource="https://vocab.getty.edu/aat/300386958"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:31:53Z</terms:created>
         <terms:title xml:lang="pt">construções em bom estado de conservação</terms:title>
@@ -1340,6 +2159,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://vocabulario.tradicional.arq.br/000000009"/>
         <owl:disjointWith rdf:resource="https://vocab.getty.edu/aat/300008057"/>
+        <owl:disjointWith rdf:resource="https://vocab.getty.edu/aat/300386958"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:33:40Z</terms:created>
         <terms:title xml:lang="pt">construções em estado precário de conservação</terms:title>
@@ -1364,9 +2184,33 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="https://vocab.getty.edu/aat/300008057"/>
+        <owl:disjointWith rdf:resource="https://vocab.getty.edu/aat/300386958"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:34:08Z</terms:created>
         <terms:title xml:lang="pt">construções em processo de arruinamento</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-14T18:40:08Z</dc:date>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <rdfs:label>Objeto por material ou técnica (nome da hierarquia)</rdfs:label>
     </owl:Class>
     
 
@@ -1378,32 +2222,100 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-12T02:14:17Z</dc:date>
         <terms:abstract xml:lang="pt-br">Material geralmente composto por argila, areia ou outro agregado — como conchas marinhas — e água, que foi comprimido e seco; utilizado na construção civil.</terms:abstract>
         <terms:creator>http://vocab.getty.edu/page/aat/300014365</terms:creator>
+        <terms:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Taipa de pilão</terms:title>
         <rdfs:label>300014365</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_50fced8d_432a_443b_81ea_554c7c601bab -->
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_50fced8d_432a_443b_81ea_554c7c601bab">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0e5b01f8_0565_440e_b356_eedf67309147"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_a08d00be_8e90_4117_8c7d_3303d285eebc"/>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-12T02:32:22Z</dc:date>
-        <dc:title xml:lang="pt-br">Taipa de mão</dc:title>
-        <terms:abstract xml:lang="pt-br">Qualquer sistema em que panos contínuos são executados diretamente no local em que a terra não sofreu nenhum beneficiamento anterior.</terms:abstract>
-        <terms:creator xml:lang="pt-br">https://orcid.org/0009-0002-8934-6608</terms:creator>
-        <rdfs:label>000000010</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-14T18:33:15Z</dc:date>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <rdfs:label>Objeto por Forma (nome da hierarquia)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-14T18:38:56Z</dc:date>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <rdfs:label>Objeto por contexto (nome da hierarquia)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_54482250_feb2_44bc_a3f2_768528ca9f5c -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_54482250_feb2_44bc_a3f2_768528ca9f5c">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-14T18:41:12Z</dc:date>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <rdfs:label>Objeto por tipo de assunto (nome da hierarquia)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_5f08109f_37cc_41eb_a852_c420d072e496 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_5f08109f_37cc_41eb_a852_c420d072e496">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-14T18:41:47Z</dc:date>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <rdfs:label>Objeto por uso (nome da hierarquia)</rdfs:label>
     </owl:Class>
     
 
@@ -1421,9 +2333,55 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_a08d00be_8e90_4117_8c7d_3303d285eebc -->
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386 -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_a08d00be_8e90_4117_8c7d_3303d285eebc">
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-14T18:32:48Z</dc:date>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <rdfs:label>Objeto por Condição (nome dahierarquia)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-14T18:33:42Z</dc:date>
+        <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
+        <rdfs:label>Objeto por função (nome da hierarquia)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#000000010 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#000000010">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1431,23 +2389,21 @@
                 <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0e5b01f8_0565_440e_b356_eedf67309147"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-12T02:19:40Z</dc:date>
-        <terms:abstract xml:lang="pt-br">Construção composta por postes ou estacas verticais entrelaçados com gravetos ou galhos de árvores e revestidos com uma mistura de argila e palha.</terms:abstract>
-        <terms:creator>http://vocab.getty.edu/page/aat/300163929</terms:creator>
-        <rdfs:label>300163929</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-12T02:32:22Z</dc:date>
+        <dc:title xml:lang="pt-br">Taipa de mão</dc:title>
+        <terms:abstract xml:lang="pt-br">Qualquer sistema em que panos contínuos são executados diretamente no local em que a terra não sofreu nenhum beneficiamento anterior.</terms:abstract>
+        <terms:creator xml:lang="pt-br">https://orcid.org/0009-0002-8934-6608</terms:creator>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_eecf6901_a179_49fb_85fa_fb87623180fe -->
+    <!-- http://www.co-ode.org/ontologies/ont.owl#300081138 -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_eecf6901_a179_49fb_85fa_fb87623180fe">
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#300081138">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-12T03:30:57Z</dc:date>
-        <dc:title xml:lang="pt-br">Adobe</dc:title>
-        <terms:abstract xml:lang="pt-br">Tijolo feito à mão e seco ao sol, tipicamente composto por lama úmida e palha, podendo conter também areia, argila, esterco, grama, palhiço ou sangue.</terms:abstract>
         <terms:creator>http://vocab.getty.edu/page/aat/300081138</terms:creator>
-        <rdfs:label>300081138</rdfs:label>
+        <terms:description xml:lang="pt-br">Tijolo artesanal, seco ao sol, geralmente feito de barro úmido e palha, podendo também conter areia, argila, esterco, capim, palha de árvore ou sangue. É poroso, absorve umidade, suscetível à degradação por ciclos de umidade e secagem, mas oferece bom isolamento térmico. As paredes de adobe são tipicamente construídas com argamassa de barro entre as camadas de tijolos, seguida por uma camada de acabamento de estuque de barro. Era utilizado desde 7000 a.C. para casas, edifícios e pirâmides, particularmente em climas áridos como Mesopotâmia, Pérsia, Palestina, Índia, China e Américas pré-colombianas. Para tijolos secos ao sol que podem ou não conter os aglomerantes do adobe, utilize o termo mais genérico &quot;tijolo seco ao sol&quot;.</terms:description>
+        <terms:title xml:lang="pt-br">Adobe</terms:title>
     </owl:Class>
     
 
@@ -1536,6 +2492,64 @@
     
 
 
+    <!-- https://vocab.getty.edu/aat/300007999 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300007999">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T23:59:15Z</terms:created>
+        <terms:title xml:lang="pt">&lt;construções individuais segundo sua localização ou contexto&gt;</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300008018 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300008018">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300007999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300007999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300007999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-04T00:00:55Z</terms:created>
+        <terms:title xml:lang="pt">&lt;construções individuais segundo sua localização: topográfica&gt;</terms:title>
+    </owl:Class>
+    
+
+
     <!-- https://vocab.getty.edu/aat/300008054 -->
 
     <owl:Class rdf:about="https://vocab.getty.edu/aat/300008054">
@@ -1576,6 +2590,7 @@
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://vocab.getty.edu/aat/300386958"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:34:49Z</terms:created>
         <terms:title xml:lang="pt">ruínas</terms:title>
@@ -1615,6 +2630,93 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T18:20:47Z</terms:created>
         <rdfs:label xml:lang="pt">Ambiente construído (nome da hierarquia)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300386958 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300386958">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:38:23Z</terms:created>
+        <terms:title xml:lang="pt">construções destruídas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300386961 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300386961">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:41:41Z</terms:created>
+        <terms:title xml:lang="pt">construções abandonadas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300418052 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300418052">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created>2025-09-03T20:42:52Z</terms:created>
+        <terms:title xml:lang="pt">construções reconstituídas</terms:title>
     </owl:Class>
     
 
