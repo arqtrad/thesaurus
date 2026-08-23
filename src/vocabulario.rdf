@@ -932,8 +932,14 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300001699"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -954,6 +960,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000013">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:created>2026-04-05D16:54:53Z</terms:created>
         <terms:creator>https://orcid.org/0009-0002-8934-6608</terms:creator>
         <terms:language xml:lang="pt">Dividir em bairros. Abairrar em povoação ou classificar por bairros.</terms:language>
@@ -966,6 +984,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000014">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -974,6 +1004,24 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000015">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>https://orcid.org/0009-0002-8934-6608</terms:creator>
         <terms:description xml:lang="pt-br">Conjunto das estacas que sustentam as habitações lacustres.</terms:description>
         <terms:title xml:lang="pt-br">Palafita</terms:title>
@@ -985,8 +1033,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000016">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>https://orcid.org/0009-0002-8934-6608</terms:creator>
         <terms:description xml:lang="pt-br">Ação de arruar, de dispor em ruas. Projetar ruas em loteamento. Executar ruas na cidade.</terms:description>
         <terms:title xml:lang="pt-br">Arruamento</terms:title>
@@ -998,11 +1056,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000017">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1039,11 +1102,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000019">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300125479"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1063,11 +1131,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000020">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300002425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
@@ -1082,7 +1155,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000021">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
         <terms:created>2026-08-15D00:00:00Z</terms:created>
         <terms:description xml:lang="pt-br">Peça de madeira, ferro, pedra, etc. usada para segurar ou amparar alguma coisa. Em geral o termo é mais empregado para designar estaca com que se sustenta ou escora o teto ou uma parede. Diz-se &quot;os esteios dos cunhais&quot;, isto é, as estacas situadas nos cantos externos das construções, sobre as quais cruzam-se os frechais.</terms:description>
@@ -1095,7 +1179,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000022">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
         <terms:created>2026-08-15D00:00:00Z</terms:created>
         <terms:description xml:lang="pt-br">Nos telhados que vencem vãos grandes, sem o auxílio de paredes internas, nome do sistema estrutural triangular indeformável que sustenta a cobertura propriamente dita.</terms:description>
@@ -1108,11 +1203,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#000000023">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300002737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor>https://orcid.org/0009-0002-8934-6608</terms:contributor>
@@ -1127,6 +1227,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300001699">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300001699</terms:creator>
         <terms:description xml:lang="pt-br">Elementos superiores dos capitéis de colunas; frequentemente lajes quadradas lisas, mas por vezes molduradas ou de outra forma ornamentadas.</terms:description>
         <terms:title xml:lang="pt">abaco</terms:title>
@@ -1138,7 +1250,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300001749">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300001749</terms:creator>
         <terms:description xml:lang="pt-br">Elementos de suporte retangulares ou quadrados, ou blocos inferiores, como colunas, pilastras ou caixilhos de portas; também bases monumentais maciças, frequentemente ornamentadas, usadas para suportar estátuas ou memoriais. Para as bases de paredes externas ou as fiadas de base em forma de plataforma de edifícios, use &quot;fiadas de plinto&quot;.</terms:description>
         <terms:title xml:lang="pt-br">Embasamento (plintos)</terms:title>
@@ -1150,7 +1273,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300001783">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300001783</terms:creator>
         <terms:description xml:lang="pt-br">Tiras planas em arquitraves jônicas e coríntias. Para tábuas pregadas nas extremidades das vigas em construções de madeira, use &quot;tábuas de beiral&quot;.</terms:description>
         <terms:title xml:lang="pt-br">Cimalha (fáscias (componentes de arquitrave))</terms:title>
@@ -1162,11 +1296,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300001838">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#000000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300001838</terms:creator>
@@ -1180,11 +1319,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002214">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300002726"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1204,7 +1348,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002232">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002232</terms:creator>
         <terms:description xml:lang="pt-br">Estruturas que se projetam de um telhado inclinado geralmente abrigam uma janela ou veneziana de ventilação.</terms:description>
         <terms:title xml:lang="pt-br">Água-furtada</terms:title>
@@ -1216,7 +1371,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002268">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002268</terms:creator>
         <terms:description xml:lang="pt-br">Refere-se às porções horizontais de um telhado inclinado que se projetam além das paredes. Para as porções do telhado que se projetam além do frontão, use &quot;beiral&quot;.</terms:description>
         <terms:title xml:lang="pt">Beiral</terms:title>
@@ -1228,11 +1394,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002370">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300002425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002370</terms:creator>
@@ -1246,11 +1417,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002403">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300002425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002403</terms:creator>
@@ -1264,7 +1440,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002425">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002425</terms:creator>
         <terms:description xml:lang="pt-br">Vigas que formam um ângulo reto com a beira do telhado e se estendem da placa até a cumeeira.</terms:description>
         <terms:title xml:lang="pt-br">vigas comuns</terms:title>
@@ -1276,7 +1463,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002431">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002431</terms:creator>
         <terms:description xml:lang="pt-br">Vigas colocadas na junção dos planos inclinados que formam os telhados de quatro águas.</terms:description>
         <terms:title xml:lang="pt-br">Espigão (caibros)</terms:title>
@@ -1288,7 +1486,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002538">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002538</terms:creator>
         <terms:description xml:lang="pt-br">Paredes internas que separam uma parte de um espaço de outra; às vezes paredes internas permanentes que dividem edifícios em vários cômodos, outras vezes projetadas para se moverem e abrirem um espaço. Para elementos que não sejam paredes e que dividam espaços internos, frequentemente incorporando estantes, armários ou gavetas, use &quot;divisórias de ambiente&quot;.</terms:description>
         <terms:title xml:lang="pt-br">Oitão (partições (paredes internas))</terms:title>
@@ -1300,7 +1509,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002588">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002588</terms:creator>
         <terms:description xml:lang="pt-br">Plataformas com corrimão que se projetam das paredes externas dos edifícios. Use também para elementos internos semelhantes, quando pequenos. Para plataformas maiores que se estendem por toda a lateral de uma sala ou que ficam recuadas atrás de uma arcada, use &quot;galerias (espaços do nível superior)&quot;.</terms:description>
         <terms:title xml:lang="pt-br">varandas</terms:title>
@@ -1312,11 +1532,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002696">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1336,7 +1561,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002726">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002726</terms:creator>
         <terms:description xml:lang="pt-br">Paredes triangulares com empena acima da cornija horizontal de um edifício de estilo clássico; também, elementos triangulares ou aproximadamente triangulares, por vezes curvos ou interrompidos no centro, que coroam pórticos ou aberturas. Comuns também em mobiliário, incluindo como tampos de capota.</terms:description>
         <terms:title xml:lang="pt-br">frontões</terms:title>
@@ -1348,7 +1584,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002737">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300002737</terms:creator>
         <terms:description xml:lang="pt-br">Pilares rasos ou colunas retangulares que se projetam ligeiramente da parede e, na arquitetura clássica, seguem uma das ordens arquitetônicas. Comuns também em móveis.</terms:description>
         <terms:title xml:lang="pt-br">Pilastra</terms:title>
@@ -1360,11 +1607,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002800">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1384,11 +1636,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300002932">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1408,11 +1665,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003009">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1432,11 +1694,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003092">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300003146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1456,7 +1723,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003115">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300003115</terms:creator>
         <terms:description xml:lang="pt-br">Cortinas horizontais fixadas na parte superior de uma abertura; geralmente usadas como cabeçalhos decorativos para ocultar a parte superior das cortinas e seus acessórios.</terms:description>
         <terms:title xml:lang="pt-br">Lambrequim (bandôs)</terms:title>
@@ -1468,7 +1746,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003146">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300003146</terms:creator>
         <terms:description xml:lang="pt-br">Elementos verticais em ambos os lados de batentes de portas, janelas ou similares.</terms:description>
         <terms:title xml:lang="pt-br">Ombreira (jambas (componentes de abertura))</terms:title>
@@ -1480,11 +1769,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003176">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300266766"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1504,7 +1798,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003545">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300003545</terms:creator>
         <terms:description xml:lang="pt-br">Molduras planas, retangulares e horizontais.</terms:description>
         <terms:title xml:lang="pt-br">Platibanda</terms:title>
@@ -1516,7 +1821,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300003610">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300003610</terms:creator>
         <terms:description xml:lang="pt-br">Blocos de alvenaria em balanço usados ​​individualmente ou em conjuntos para suportar elementos arquitetônicos ou ornamentais, ou usados ​​em fiadas sucessivas para formar arcos, cúpulas ou abóbadas; quando se refere de forma geral às fiadas de alvenaria salientes, prefere-se &quot;fiadas sobrepostas&quot;.</terms:description>
         <terms:title xml:lang="pt-br">Cachorro</terms:title>
@@ -1529,7 +1845,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004054">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300004054</terms:creator>
         <terms:description xml:lang="pt-br">Utilize para delimitar pequenos espaços recuados em salas maiores.</terms:description>
         <terms:title xml:lang="pt-br">Alcova</terms:title>
@@ -1541,8 +1868,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004095">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300004095</terms:creator>
         <terms:description xml:lang="pt-br">Áreas descobertas, cercadas ou parcialmente cercadas pelas paredes de um edifício. Um espaço livre delimitado por paredes ou cercado por edifícios.</terms:description>
         <terms:title xml:lang="pt-br">Terreiro (pátios)</terms:title>
@@ -1554,7 +1891,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004132">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300004132</terms:creator>
         <terms:description xml:lang="pt-br">Espaços cobertos, abertos em um ou mais lados, adjacentes a uma edificação, geralmente servindo para abrigar uma entrada ou como espaço de estar; no contexto luso-brasileiro, corresponde ao termo local &quot;alpendre&quot;.</terms:description>
         <terms:title xml:lang="pt">Alpendre</terms:title>
@@ -1566,11 +1914,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004182">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300004095"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1590,7 +1943,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004283">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300004283</terms:creator>
         <terms:description xml:lang="pt-br">Espaços relativamente estreitos projetados para facilitar o acesso; geralmente espaços interiores.</terms:description>
         <terms:title xml:lang="pt-br">corredores</terms:title>
@@ -1602,7 +1966,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300004627">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300004627</terms:creator>
         <terms:description xml:lang="pt-br">Refere-se à parte central principal de um interior, dividida em um núcleo alto com porções laterais mais baixas, separadas por colunas ou pilares, geralmente, mas nem sempre, em uma igreja. Também pode ser usado para a parte principal de uma igreja sem naves laterais, mas com um presbitério distinto.</terms:description>
         <terms:title xml:lang="pt-br">naves</terms:title>
@@ -1614,19 +1989,27 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300005582">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1647,6 +2030,24 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300007495">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300007495</terms:creator>
         <terms:description xml:lang="pt-br">Igrejas que formam o centro de uma abadia.</terms:description>
         <terms:title xml:lang="pt">Abadia</terms:title>
@@ -1658,8 +2059,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300007872">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300007872</terms:creator>
         <terms:description xml:lang="pt-br">Estruturas de treliça de madeira que transportam uma estrada ou linha férrea sobre um rio ou outro obstáculo, caracterizadas pelo telhado e laterais que formam um fechamento quase completo para proteger os elementos estruturais de madeira das intempéries. Não há evidências de pontes de treliça de madeira, com ou sem cobertura, no mundo antigo; no entanto, existem desenhos de pontes cobertas que datam do século XIV e posteriores na Europa. Na América do Norte, as pontes de madeira cobertas eram comuns do século XVIII até o início do século XX, embora estivessem sendo gradualmente substituídas por pontes de treliça metálica, que não necessitavam de cobertura.</terms:description>
         <terms:title xml:lang="pt-br">Passadiço (pontes cobertas)</terms:title>
@@ -1671,11 +2082,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300010525">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1695,7 +2111,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300010713">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300010713</terms:creator>
         <terms:description xml:lang="pt-br">Na arquitetura antiga, o termo era usado para descrever uma telha plana ou tégula. No uso moderno, refere-se a uma telha de cobertura em forma de S, assentada de modo que a curvatura descendente de uma telha se sobreponha à curvatura ascendente da seguinte.</terms:description>
         <terms:title xml:lang="pt-br">Telha Canal (ou Coxa) (telha de barro)</terms:title>
@@ -1707,8 +2134,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300011677">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300011677</terms:creator>
         <terms:description xml:lang="pt-br">Um fragmento de rocha, arredondado ou desgastado de alguma outra forma, com diâmetro entre 64 e 256 mm, sendo maior que um seixo e menor que um bloco rochoso. O termo também pode se referir mais especificamente a uma pedra arredondada adequada para uso em pavimentação ou outras construções.</terms:description>
         <terms:title xml:lang="pt-br">Pé-de-moleque (calçada)</terms:title>
@@ -1720,11 +2157,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300011684">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1744,11 +2186,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300011701">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015334"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1768,7 +2215,12 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300014362">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
@@ -1786,7 +2238,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300015042">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300015042</terms:creator>
         <terms:description xml:lang="pt-br">Tinta cujos principais ingredientes são água e pasta de cal; um dos tipos de tinta mais antigos, usada tanto para superfícies externas quanto internas.</terms:description>
         <terms:title xml:lang="pt-br">cal (tinta à base de água)</terms:title>
@@ -1798,7 +2261,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300015334">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300015334</terms:creator>
         <terms:description xml:lang="pt-br">Material de construção composto por alvenaria de pedra.</terms:description>
         <terms:title xml:lang="pt-br">alvenaria</terms:title>
@@ -1810,11 +2284,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300053060">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300015042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1834,11 +2313,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300070138">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300004182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1858,7 +2342,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300080798">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300080798</terms:creator>
         <terms:description xml:lang="pt-br">Refere-se a espaços com vários andares e claraboias, localizados dentro ou entre edifícios altos, comuns desde 1960.</terms:description>
         <terms:title xml:lang="pt-br">átrios (espaços interiores)</terms:title>
@@ -1870,11 +2365,15 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300120766">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1895,7 +2394,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300125479">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300125479</terms:creator>
         <terms:description xml:lang="pt-br">A técnica vernacular de construção consiste em preencher os espaços entre as vigas de sustentação com tijolos, taipa ou outros materiais. O termo também é usado para descrever construções com uma estrutura de madeira falsa fixada na parede externa, conferindo a aparência de uma construção em enxaimel.</terms:description>
         <terms:title xml:lang="pt-br">Enxaimel</terms:title>
@@ -1907,7 +2417,12 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300163929">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
@@ -1936,7 +2451,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300266766">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300266766</terms:creator>
         <terms:description xml:lang="pt-br">Janelas em caixilho deslizante, com folha de abertura vertical ou horizontal, mas geralmente não janelas de guilhotina dupla.</terms:description>
         <terms:title xml:lang="pt-br">Caixilho (janelas de guilhotina)</terms:title>
@@ -1982,7 +2508,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300386877">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300386877</terms:creator>
         <terms:description xml:lang="pt-br">Um tipo de gesso composto de óxido de cálcio (cal). O gesso de cal é usado desde a antiguidade, sendo preparado pelo aquecimento do calcário para remover o dióxido de carbono e convertê-lo em óxido de cálcio anidro (cal viva). Quando a cal viva é misturada com água, ela se transforma em hidróxido de cálcio (cal hidratada).</terms:description>
         <terms:title xml:lang="pt-br">Estuque</terms:title>
@@ -2011,7 +2548,18 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300410343">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300410343</terms:creator>
         <terms:description xml:lang="pt-br">Obras visuais compostas por azulejos ou que utilizam azulejos como meio principal. Para obras em que um azulejo individual serve de suporte para um desenho ou imagem, utilize &quot;azulejos artísticos (obras visuais)&quot;. As obras com azulejos podem incorporar azulejos decorados ou podem ser compostas por azulejos sem decoração.</terms:description>
         <terms:title xml:lang="pt-br">Azulejaria Trabalho com azulejos (obras visuais)</terms:title>
@@ -2023,12 +2571,21 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300440767">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2049,9 +2606,24 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300445666">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300445666</terms:creator>
         <terms:description xml:lang="pt-br">Seções de nova construção anexadas a uma obra existente, com a função de adicionar uma extensão ou aumentar a área ou altura de um edifício existente além do seu perímetro original.</terms:description>
         <terms:title xml:lang="pt-br">Adição/Acréscimo</terms:title>
@@ -2063,11 +2635,15 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300451680">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2088,13 +2664,27 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br#300457778">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGenericExtended"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_2812bd42_b959_4829_b028_e0ab52515ffd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2139,12 +2729,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000003">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2167,12 +2761,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000004">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2194,12 +2792,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000005">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2220,12 +2822,16 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000006">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2245,8 +2851,12 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000007">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
@@ -2274,8 +2884,12 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000008">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
@@ -2302,8 +2916,12 @@
 
     <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000009">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
@@ -2352,7 +2970,18 @@
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0e5b01f8_0565_440e_b356_eedf67309147">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:abstract xml:lang="pt-br">Material geralmente composto por argila, areia ou outro agregado — como conchas marinhas — e água, que foi comprimido e seco; utilizado na construção civil.</terms:abstract>
         <terms:creator>http://vocab.getty.edu/page/aat/300014365</terms:creator>
         <terms:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Taipa</terms:title>
@@ -2453,19 +3082,6 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_62fdcc20_4c02_41c4_9e8d_822c898b8328 -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_62fdcc20_4c02_41c4_9e8d_822c898b8328">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-12T03:37:10Z</dc:date>
-        <dc:title xml:lang="pt-br">Alpendre</dc:title>
-        <terms:abstract xml:lang="pt-br">Utilizado para designar espaços cobertos, abertos em dois ou mais lados e anexos a uma edificação, servindo comumente para proteger uma entrada ou como espaço de convivência.</terms:abstract>
-        <terms:creator>http://vocab.getty.edu/page/aat/300004132</terms:creator>
-        <rdfs:label>300004132</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386 -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386">
@@ -2516,11 +3132,16 @@
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_d7f977f8_0092_4046_97e4_155c23a699c4">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br#300002425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_227c7e8e_84b3_435d_b1ef_92e7f65b9a3d"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300001868</terms:creator>
@@ -2535,6 +3156,12 @@
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#000000010">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
@@ -2553,7 +3180,18 @@
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#300081138">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_0c206ee3_b1a1_4659_be1c_bfc039fb4a6f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:creator>http://vocab.getty.edu/page/aat/300081138</terms:creator>
         <terms:description xml:lang="pt-br">Tijolo artesanal, seco ao sol, geralmente feito de barro úmido e palha, podendo também conter areia, argila, esterco, capim, palha de árvore ou sangue. É poroso, absorve umidade, suscetível à degradação por ciclos de umidade e secagem, mas oferece bom isolamento térmico. As paredes de adobe são tipicamente construídas com argamassa de barro entre as camadas de tijolos, seguida por uma camada de acabamento de estuque de barro. Era utilizado desde 7000 a.C. para casas, edifícios e pirâmides, particularmente em climas áridos como Mesopotâmia, Pérsia, Palestina, Índia, China e Américas pré-colombianas. Para tijolos secos ao sol que podem ou não conter os aglomerantes do adobe, utilize o termo mais genérico &quot;tijolo seco ao sol&quot;.</terms:description>
         <terms:title xml:lang="pt-br">Adobe</terms:title>
@@ -2602,17 +3240,16 @@
 
     <owl:Class rdf:about="https://vocab.getty.edu/aat/300004790">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004789"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264550"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004789"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264550"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
@@ -2658,12 +3295,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
             </owl:Restriction>
@@ -2682,12 +3313,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300007999"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300007999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2792,17 +3417,15 @@
 
     <owl:Class rdf:about="https://vocab.getty.edu/aat/300386958">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2823,18 +3446,21 @@
 
     <owl:Class rdf:about="https://vocab.getty.edu/aat/300386961">
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f"/>
-        <rdfs:subClassOf rdf:resource="https://vocab.getty.edu/aat/300264550"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_8c3396da_f987_4888_9b74_83df96908386"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OWLClass_b9729b20_de09_4e92_a802_f7a213e5fe4f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2858,12 +3484,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
