@@ -15,6 +15,7 @@
      xmlns:voaf="http://purl.org/vocommons/voaf#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://linked.art/ns/v1/linked-art.json"
+     xmlns:arqtrad="http://vocabulario.tradicional.arq.br/"
      xmlns:ontology="http://vocab.getty.edu/ontology#"
      xmlns:protontop="http://www.ontotext.com/proton/protontop#">
     <owl:Ontology rdf:about="http://vocabulario.tradicional.arq.br">
@@ -22,6 +23,7 @@
         <owl:imports rdf:resource="http://vocab.getty.edu/ontology"/>
         <terms:description xml:lang="en">Vocabulary for traditional architecture of Portuguese extraction</terms:description>
         <terms:description xml:lang="pt">Vocabulário de arquitetura tradicional de influência portuguesa</terms:description>
+        <terms:description xml:lang="pt-br">Vocabulário de arquitetura tradicional de influência portuguesa</terms:description>
         <rdfs:comment xml:lang="en">Vocabulary for traditional architecture of Portuguese extraction</rdfs:comment>
         <rdfs:comment xml:lang="pt">Vocabulário de arquitetura tradicional de influência portuguesa</rdfs:comment>
     </owl:Ontology>
@@ -3147,7 +3149,7 @@
         <terms:creator>http://vocab.getty.edu/page/aat/300001868</terms:creator>
         <terms:description xml:lang="pt-br">Elementos horizontais colocados ao longo da parte superior das paredes ou uma série de montantes para suportar vigas ou caibros.</terms:description>
         <terms:title xml:lang="pt-br">Frechal</terms:title>
-        <rdfs:label>300001868</rdfs:label>
+        <rdfs:label xml:lang="pt">frechal</rdfs:label>
     </owl:Class>
     
 
@@ -3169,9 +3171,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-12T02:32:22Z</dc:date>
-        <dc:title xml:lang="pt-br">Taipa de mão</dc:title>
+        <dc:title xml:lang="pt-br">taipa de mão</dc:title>
         <terms:abstract xml:lang="pt-br">Qualquer sistema em que panos contínuos são executados diretamente no local em que a terra não sofreu nenhum beneficiamento anterior.</terms:abstract>
         <terms:creator xml:lang="pt-br">https://orcid.org/0009-0002-8934-6608</terms:creator>
+        <rdfs:label xml:lang="pt">pau a pique</rdfs:label>
+        <rdfs:label xml:lang="pt-br">taipa de mão</rdfs:label>
     </owl:Class>
     
 
