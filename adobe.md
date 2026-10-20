@@ -12,7 +12,7 @@ title_source:
   note: "p. 19"
 titles:
 - display: "adobo"
-  type: "alt"
+  type: "alternate"
   source:
   - refid: "@corona:1972dicionario"
     note: "p. 19"
@@ -31,24 +31,28 @@ titles:
   - refid: "@albernaz:1998dicionario_v1"
     note: "p. 16"
 - display: "tijolo burro"
-  type: "alt"
+  type: "alternate"
   source:
   - refid: "@albernaz:1998dicionario_v1"
     note: "p. 16"
-definition:
-  display: "Tijolo que não é cozido, mas seco ao sol."
-  source:
+description: "Tijolo que não é cozido, mas seco ao sol."
+bibliographic_citation:
   - refid: "@assumpcao:1915diccionario"
     note: "p. 5"
 relation:
-- refid: "https://vocab.getty.edu/aat/300081138"
+- name:
+    refid: "https://vocab.getty.edu/aat/300081138"
   match: "exact"
-- refid: "https://www.wikidata.org/wiki/Q183496"
+- name:
+    refid: "https://www.wikidata.org/wiki/Q183496"
   match: "exact"
-- refid: "http://vocabularies.unesco.org/thesaurus/concept17023"
+- name:
+    refid: "http://vocabularies.unesco.org/thesaurus/concept17023"
   match: "exact"
-broader_generic:
-- "https://vocab.getty.edu/aat/300190712"
+broader:
+- name:
+    refid: "https://vocab.getty.edu/aat/300190712"
+  match: "generic"
 record_rights:
 - type: "generic"
   holder:
