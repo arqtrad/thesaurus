@@ -2,8 +2,8 @@
 authors:
   - "https://orcid.org/0000-0002-0187-774X"
 record_date: 2026-11-20
-id: "faceta-objetos"
-title: "Faceta Objetos"
+id: "faceta-elementos"
+title: "Faceta Elementos"
 concept_type: "facet"
 description: >
   Descreve entidades tangíveis e delimitadas produzidas pela ação humana ou
