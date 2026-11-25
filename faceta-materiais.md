@@ -12,8 +12,7 @@ description: >
   sintéticos. Compreende desde matérias-primas até produtos processados ou
   transformados. Os componentes construtivos são feitos de materiais.
 mapping:
-  - concept_name:
-      id: "aat:300264091"
+  - refid: "aat:300264091"
     mapping_match: "exact"
 record_rights:
   - rights_type: "specific"
