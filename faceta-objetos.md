@@ -3,7 +3,7 @@ authors:
   - "https://orcid.org/0000-0002-0187-774X"
 record_date: 2026-11-20
 id: "faceta-elementos"
-title: "Faceta Elementos"
+title: "Faceta Objetos"
 concept_type: "facet"
 description: >
   Descreve entidades tangíveis e delimitadas produzidas pela ação humana ou
@@ -11,7 +11,7 @@ description: >
   sua materialidade física ou sua configuração espacial. Inclui as categorias 
   de classificação desses objetos, de suas partes ou de conjuntos.
 bibliographic_citation:
-  - refid: "getty:aat300264092"
+  - citekey: "getty:aat300264092"
 mapping:
   - refid: "aat:300264092"
     mapping_match: "close"
