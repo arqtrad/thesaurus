@@ -6,13 +6,12 @@ id: "faceta-agentes"
 title: "Faceta Atividades"
 concept_type: "facet"
 bibliographic_citation:
-  - refid: "@getty:aat300264090"
+  - citekey: "@getty:aat300264090"
 description: >
   Compreende termos relativos a ações físicas e mentais, acontecimentos,
   métodos, processos intencionais, involuntários ou espontâneos, e técnicas.
 mapping:
-  - concept_name:
-      id: "aat:300264090"
+  - refid: "aat:300264090"
     mapping_match: "exact"
 record_rights:
   - rights_type: "specific"

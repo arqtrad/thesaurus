@@ -6,19 +6,17 @@ id: "hierarquia-processos_tecnicas"
 title: "Processos e técnicas (nome de hierarquia)"
 concept_type: "hierarchy_name"
 bibliographic_citation:
-  - refid: "@getty:aat300053001"
+  - citekey: "@getty:aat300053001"
 description: >
   Ações e métodos realizados com ou em referência a objetos e materiais,
   incluindo processos espontâneos. Compreende também ações de gestão,
   preparação e investigação relacionadas a objetos.
 broader:
-  - concept_name:
-      id: "faceta-atividades"
+  - refid: "faceta-atividades"
     broader_match: "generic"
     broader_preferred: true
 mapping:
-  - concept_name:
-      id: "aat:300053001"
+  - refid: "aat:300053001"
     mapping_match: "exact"
 record_rights:
   - rights_type: "specific"

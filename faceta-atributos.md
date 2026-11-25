@@ -9,8 +9,7 @@ description: >
   Terminologia para descrever aspectos formais e materiais do ambiente 
   construído, compreendendo elementos físicos e atributos espaciais.
 mapping:
-  - concept_name:
-      id: "aat:300264087"
+  - refid: "aat:300264087"
     mapping_match: "close"
 record_rights:
   - rights_type: "specific"

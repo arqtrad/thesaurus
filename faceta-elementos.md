@@ -13,8 +13,7 @@ description: >
 bibliographic_citation:
   - refid: "getty:aat300264092"
 mapping:
-  - concept_name:
-      id: "aat:300264092"
+  - refid: "aat:300264092"
     mapping_match: "close"
 record_rights:
   - rights_type: "specific"

@@ -4,91 +4,89 @@ author: "https://orcid.org/0009-0002-8934-6608"
 date: &CREATED_DATE 2026-09-25T21:35:34-0300
 title: "adobe"
 title_source:
-- refid: "@rodrigues:1875diccionario"
+- citekey: "@rodrigues:1875diccionario"
   note: "p. 21"
-- refid: "@assumpcao:1915diccionario"
+- citekey: "@assumpcao:1915diccionario"
   note: "p. 5"
-- refid: "@corona:1972dicionario"
+- citekey: "@corona:1972dicionario"
   note: "p. 19"
 titles:
-- display: "adobo"
-  type: "alternate"
-  source:
-  - refid: "@corona:1972dicionario"
-    note: "p. 19"
-- display: "adôbo"
-  type: "hidden"
-  source:
-  - refid: "@vasconcellos:1979arquitetura"
-    note: "p. 51"
-- display: "bloco de terra crua"
-  type: "hidden"
-- display: "tijolo de terra crua"
-  type: "hidden"
-- display: "tijolo cru"
-  type: "hidden"
-  source:
-  - refid: "@albernaz:1998dicionario_v1"
-    note: "p. 16"
-- display: "tijolo burro"
-  type: "alternate"
-  source:
-  - refid: "@albernaz:1998dicionario_v1"
-    note: "p. 16"
+  - label: "adobo"
+    title_type: "alternate"
+    bibliographic_citation:
+    - citekey: "@corona:1972dicionario"
+      note: "p. 19"
+  - label: "adôbo"
+    title_type: "hidden"
+    bibliographic_citation:
+    - citekey: "@vasconcellos:1979arquitetura"
+      note: "p. 51"
+  - label: "bloco de terra crua"
+    title_type: "hidden"
+  - label: "tijolo de terra crua"
+    title_type: "hidden"
+  - label: "tijolo cru"
+    title_type: "hidden"
+    bibliographic_citation:
+    - citekey: "@albernaz:1998dicionario_v1"
+      note: "p. 16"
+  - label: "tijolo burro"
+    title_type: "alternate"
+    bibliographic_citation:
+    - citekey: "@albernaz:1998dicionario_v1"
+      note: "p. 16"
 description: "Tijolo que não é cozido, mas seco ao sol."
+concept_type: "concept"
 bibliographic_citation:
-  - refid: "@assumpcao:1915diccionario"
+  - citekey: "@assumpcao:1915diccionario"
     note: "p. 5"
-relation:
-- name:
-    refid: "https://vocab.getty.edu/aat/300081138"
-  match: "exact"
-- name:
-    refid: "https://www.wikidata.org/wiki/Q183496"
-  match: "exact"
-- name:
-    refid: "http://vocabularies.unesco.org/thesaurus/concept17023"
-  match: "exact"
+mapping:
+  - refid: "https://vocab.getty.edu/aat/300081138"
+    mapping_match: "exact"
+  - refid: "https://www.wikidata.org/wiki/Q183496"
+    mapping_match: "exact"
+  - refid: "http://vocabularies.unesco.org/thesaurus/concept17023"
+    mapping_match: "exact"
 broader:
-- name:
-    refid: "https://vocab.getty.edu/aat/300190712"
-  match: "generic"
+  - refid: "https://vocab.getty.edu/aat/300190712"
+    broader_match: "generic"
+    broader_preferred: true
 record_rights:
-- type: "generic"
-  holder:
-    type: "corporate"
-    name:
-      refid: "https://isni.org/isni/0000000121076862"
-      display: "Getty Research Institute"
-  concept:
-    refid: "http://opendatacommons.org/licenses/by/1.0/"
-    display: "Open Data Commons Attribution License (ODC-By) v1.0"
-  temporal:
-    earliest_date: 1988-01-01
-- type: "generic"
-  holder:
-    type: "corporate"
-    name:
-      refid: "https://isni.org/isni/0000000419370722"
-      display: >
-        Vocabulário Colaborativo em Artes e Arquitetura,
-        Universidade de São Paulo
-  concept:
-    refid: "http://opendatacommons.org/licenses/by/1.0/"
-    display: "Open Data Commons Attribution License v1.0"
-  temporal:
-    earliest_date: 2020-09-21T11:20:51
-- type: "generic"
-  holder:
-    type: "corporate"
-    name:
-      refid: "https://isni.org/isni/0000000122385157"
-      display: "Fundação Universidade de Brasília"
-  concept:
-    refid: "https://creativecommons.org/licenses/by/4.0/"
-    display: "Creative Commons Attribution 4.0 International"
-  temporal:
-    earliest_date: *CREATED_DATE
+  - rights_type: "specific"
+    holder:
+      type: "corporate"
+      name:
+        refid: "https://isni.org/isni/0000000121076862"
+        display: "Getty Research Institute"
+    concept:
+      refid: "http://opendatacommons.org/licenses/by/1.0/"
+      display: "Open Data Commons Attribution License (ODC-By) v1.0"
+    temporal:
+      earliest_date: 1988-01-01
+  - rights_type: "specific"
+    holder:
+      type: "corporate"
+      name:
+        refid: "https://isni.org/isni/0000000419370722"
+        display: >
+          Vocabulário Colaborativo em Artes e Arquitetura,
+          Universidade de São Paulo
+    concept:
+      refid: "http://opendatacommons.org/licenses/by/1.0/"
+      display: "Open Data Commons Attribution License v1.0"
+    temporal:
+      earliest_date: 2020-09-21T11:20:51
+  - rights_type: "specific"
+    holder:
+      type: "corporate"
+      name:
+        refid: "https://isni.org/isni/0000000122385157"
+        display: "Fundação Universidade de Brasília"
+    concept:
+      refid: "https://creativecommons.org/licenses/by/4.0/"
+      display: "Creative Commons Attribution 4.0 International"
+    temporal:
+      earliest_date: *CREATED_DATE
 ---
 
 > Bloco artesanal, seco ao sol, geralmente feito de barro úmido e palha, 

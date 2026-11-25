@@ -12,8 +12,7 @@ description: >
   movimentos estéticos, culturas, e grupos étnicos. Incluir também nomes
   próprios quando eles designarem estilos, por exemplo "Luís XVI".
 mapping:
-  - concept_name:
-      id: "aat:300264088"
+  - refid: "aat:300264088"
     mapping_match: "exact"
 record_rights:
   - rights_type: "specific"

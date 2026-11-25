@@ -6,13 +6,12 @@ id: "faceta-agentes"
 title: "Faceta Agentes"
 concept_type: "facet"
 bibliographic_citation:
-  - refid: "@getty:aat300264089"
+  - citekey: "@getty:aat300264089"
 description: >
   Cadastrar sob esta faceta termos usados para classificar agentes e os papéis
   que desempenham no âmbito do ambiente construído e da cultura material.
 mapping:
-  - concept_name:
-      id: "aat:300264089"
+  - refid: "aat:300264089"
     mapping_match: "exact"
 record_rights:
   - rights_type: "specific"
