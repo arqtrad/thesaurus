@@ -1,7 +1,7 @@
 ---
 authors:
   - "https://orcid.org/0000-0002-0187-774X"
-record_date: 2026-11-20
+record_date: &RECORD_DATE 2026-11-20
 id: "hierarquia-processos_tecnicas"
 title: "Processos e técnicas (nome de hierarquia)"
 concept_type: "hierarchy_name"
@@ -11,6 +11,7 @@ description: >
   Ações e métodos realizados com ou em referência a objetos e materiais,
   incluindo processos espontâneos. Compreende também ações de gestão,
   preparação e investigação relacionadas a objetos.
+
 broader:
   - refid: "faceta-atividades"
     broader_match: "generic"
@@ -18,6 +19,7 @@ broader:
 mapping:
   - refid: "aat:300053001"
     mapping_match: "exact"
+
 record_rights:
   - rights_type: "specific"
     statement:

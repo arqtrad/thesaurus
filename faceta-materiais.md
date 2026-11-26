@@ -1,19 +1,21 @@
 ---
 authors:
   - "https://orcid.org/0000-0002-0187-774X"
-record_date: 2026-11-20
+record_date: &RECORD_DATE 2026-11-20
 id: "faceta-materiais"
 title: "Faceta Materiais"
 concept_type: "facet"
 bibliographic_citation:
-  - refid: "@getty:aat300264091"
+  - citekey: "@getty:aat300264091"
 description: >
   Inclui termos descrevendo substâncias e compostos físicos, naturais ou
   sintéticos. Compreende desde matérias-primas até produtos processados ou
   transformados. Os componentes construtivos são feitos de materiais.
+
 mapping:
   - refid: "aat:300264091"
     mapping_match: "exact"
+
 record_rights:
   - rights_type: "specific"
     statement:

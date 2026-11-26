@@ -1,19 +1,23 @@
 ---
 authors:
   - "https://orcid.org/0000-0002-0187-774X"
-record_date: 2026-11-20
+record_date: &RECORD_DATE 2026-11-20
 id: "faceta-estilos_periodos"
 title: "Faceta Estilos e períodos"
 concept_type: "facet"
+
 bibliographic_citation:
-  - refid: "@getty:aat300264088"
+  - citekey: "@getty:aat300264088"
+
 description: >
   Inclui nomes para estilos artísticos e arquitetônicos, períodos históricos,
   movimentos estéticos, culturas, e grupos étnicos. Incluir também nomes
   próprios quando eles designarem estilos, por exemplo "Luís XVI".
+
 mapping:
   - refid: "aat:300264088"
     mapping_match: "exact"
+
 record_rights:
   - rights_type: "specific"
     statement:

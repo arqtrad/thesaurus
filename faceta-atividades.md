@@ -1,8 +1,8 @@
 ---
 authors:
   - "https://orcid.org/0000-0002-0187-774X"
-record_date: 2026-11-20
-id: "faceta-agentes"
+record_date: &RECORD_DATE 2026-11-20
+id: "faceta-atividades"
 title: "Faceta Atividades"
 concept_type: "facet"
 bibliographic_citation:

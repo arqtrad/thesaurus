@@ -1,7 +1,7 @@
 ---
 authors:
   - "https://orcid.org/0000-0002-0187-774X"
-record_date: 2026-11-20
+record_date: &RECORD_DATE 2026-11-20
 id: "faceta-agentes"
 title: "Faceta Agentes"
 concept_type: "facet"
