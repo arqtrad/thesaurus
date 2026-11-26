@@ -1,90 +1,106 @@
 ---
 id: "adobe"
-author: "https://orcid.org/0009-0002-8934-6608"
-date: &CREATED_DATE 2026-09-25T21:35:34-0300
+authors:
+  - "https://orcid.org/0009-0002-8934-6608"
+record_date: &CREATED_DATE 2026-09-25
 title: "adobe"
 title_source:
-- refid: "@rodrigues:1875diccionario"
+- citekey: "@rodrigues:1875diccionario"
   note: "p. 21"
-- refid: "@assumpcao:1915diccionario"
+- citekey: "@assumpcao:1915diccionario"
   note: "p. 5"
-- refid: "@corona:1972dicionario"
+- citekey: "@corona:1972dicionario"
   note: "p. 19"
-titles:
-- display: "adobo"
-  type: "alt"
-  source:
-  - refid: "@corona:1972dicionario"
-    note: "p. 19"
-- display: "adôbo"
-  type: "hidden"
-  source:
-  - refid: "@vasconcellos:1979arquitetura"
-    note: "p. 51"
-- display: "bloco de terra crua"
-  type: "hidden"
-- display: "tijolo de terra crua"
-  type: "hidden"
-- display: "tijolo cru"
-  type: "hidden"
-  source:
-  - refid: "@albernaz:1998dicionario_v1"
-    note: "p. 16"
-- display: "tijolo burro"
-  type: "alt"
-  source:
-  - refid: "@albernaz:1998dicionario_v1"
-    note: "p. 16"
-definition:
-  display: "Tijolo que não é cozido, mas seco ao sol."
-  source:
-  - refid: "@assumpcao:1915diccionario"
+
+alt_name:
+  - label: "adobo"
+    appellation_preference: "alternative"
+    bibliographic_citation:
+    - citekey: "@corona:1972dicionario"
+      note: "p. 19"
+  - label: "adôbo"
+    appellation_preference: "hidden"
+    bibliographic_citation:
+    - citekey: "@vasconcellos:1979arquitetura"
+      note: "p. 51"
+  - label: "bloco de terra crua"
+    appellation_preference: "hidden"
+  - label: "tijolo de terra crua"
+    appellation_preference: "hidden"
+  - label: "tijolo cru"
+    appellation_preference: "hidden"
+    bibliographic_citation:
+    - citekey: "@albernaz:1998dicionario_v1"
+      note: "p. 16"
+  - label: "tijolo burro"
+    appellation_preference: "alternative"
+    bibliographic_citation:
+    - citekey: "@albernaz:1998dicionario_v1"
+      note: "p. 16"
+
+description: "Tijolo que não é cozido, mas seco ao sol."
+concept_type: "concept"
+bibliographic_citation:
+  - citekey: "@assumpcao:1915diccionario"
     note: "p. 5"
-relation:
-- refid: "https://vocab.getty.edu/aat/300081138"
-  match: "exact"
-- refid: "https://www.wikidata.org/wiki/Q183496"
-  match: "exact"
-- refid: "http://vocabularies.unesco.org/thesaurus/concept17023"
-  match: "exact"
-broader_generic:
-- "https://vocab.getty.edu/aat/300190712"
+  - citekey: "@getty:aat300081138"
+
+mapping:
+  - refid: "https://vocab.getty.edu/aat/300081138"
+    mapping_match: "exact"
+    title: "adobe (bricks material)"
+  - refid: "wd:Q183496"
+    mapping_match: "exact"
+  - refid: "http://vocabularies.unesco.org/thesaurus/concept17023"
+    mapping_match: "exact"
+broader:
+  - refid: "https://vocab.getty.edu/aat/300190712"
+    broader_match: "generic"
+    broader_preferred: true
+
 record_rights:
-- type: "generic"
-  holder:
-    type: "corporate"
-    name:
-      refid: "https://isni.org/isni/0000000121076862"
-      display: "Getty Research Institute"
-  concept:
-    refid: "http://opendatacommons.org/licenses/by/1.0/"
-    display: "Open Data Commons Attribution License (ODC-By) v1.0"
-  temporal:
-    earliest_date: 1988-01-01
-- type: "generic"
-  holder:
-    type: "corporate"
-    name:
-      refid: "https://isni.org/isni/0000000419370722"
-      display: >
+  - rights_type: "specific"
+    holder:
+      legal_body_type: "corporate"
+      id: "https://isni.org/isni/0000000121076862"
+      title: "Getty Research Institute"
+      identifiers:
+        - refid: "isni:0000000121076862"
+          refid_type: "uri"
+          title: "ISNI"
+        - refid: "wd:Q5554720"
+          refid_type: "uri"
+          title: "Wikidata (Getty Vocabulary Program)"
+    statement:
+      refid: "http://opendatacommons.org/licenses/by/1.0/"
+      title: "Open Data Commons Attribution License (ODC-By) v1.0"
+    earliest_date:
+      date_type: exact
+      date_value: 1988-01-01
+  - rights_type: "specific"
+    holder:
+      legal_body_type: "corporate"
+      id: "https://isni.org/isni/0000000419370722"
+      title: >
         Vocabulário Colaborativo em Artes e Arquitetura,
         Universidade de São Paulo
-  concept:
-    refid: "http://opendatacommons.org/licenses/by/1.0/"
-    display: "Open Data Commons Attribution License v1.0"
-  temporal:
-    earliest_date: 2020-09-21T11:20:51
-- type: "generic"
-  holder:
-    type: "corporate"
-    name:
-      refid: "https://isni.org/isni/0000000122385157"
-      display: "Fundação Universidade de Brasília"
-  concept:
-    refid: "https://creativecommons.org/licenses/by/4.0/"
-    display: "Creative Commons Attribution 4.0 International"
-  temporal:
-    earliest_date: *CREATED_DATE
+    statement:
+      refid: "http://opendatacommons.org/licenses/by/1.0/"
+      title: "Open Data Commons Attribution License v1.0"
+    earliest_date:
+      date_type: exact
+      date_value: 2020-09-21
+  - rights_type: "specific"
+    holder:
+      legal_body_type: "corporate"
+      id: "https://isni.org/isni/0000000122385157"
+      title: "Fundação Universidade de Brasília"
+    statement:
+      refid: "https://creativecommons.org/licenses/by/4.0/"
+      title: "Creative Commons Attribution 4.0 International"
+    earliest_date:
+      date_type: exact
+      date_value: *CREATED_DATE
 ---
 
 > Bloco artesanal, seco ao sol, geralmente feito de barro úmido e palha, 
@@ -99,7 +115,7 @@ record_rights:
 > China e Américas pré-colombianas. 
 > Para blocos secos ao sol que podem ou não conter os aglomerantes do adobe, 
 > utilize o termo mais genérico "blocos seco ao sol".
-> [@getty:2017art]
+> [@getty:aat300081138]
 
 No Brasil, os adobes históricos foram produzidos em várias dimensões,
 sendo as mais comuns cerca de 2 palmos de comprido por
