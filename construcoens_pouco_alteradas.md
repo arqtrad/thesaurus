@@ -1,24 +1,30 @@
 ---
-title: "construções em processo de arruinamento"
-id: "construcoes_em_processo_de_arruinamento"
+title: "construções pouco alteradas"
+id: "construcoens_pouco_alteradas"
 concept_type: "concept"
 authors:
   - "https://orcid.org/0000-0002-0187-774X"
-record_date: &RECORD_DATE 2026-11-26
+record_date: &RECORD_DATE 2025-09-03
 description: >
-  Descrição do estado de conservação prevista no Sistema Integrado de
-  Conhecimento e Gestão [(SICG)]{.smallcaps} do Iphan.
+  Descrição do estado de preservação prevista no campo 8 da ficha M301 no 
+  Sistema Integrado de Conhecimento e Gestão [(SICG)]{.smallcaps} do Iphan.
 bibliographic_citation:
   - citekey: "@iphan:2026manual"
 
 broader:
-  - refid: "guia-estado_de_conservacao"
+  - refid: "guia-estado_de_preservacao"
+    refid_type: "local"
     broader_match: "generic"
     broader_preferred: true
+mapping:
+  - refid: "https://vocab.getty.edu/aat/300008054"
+    mapping_match: "broad"
+    title: "<single built works by condition>"
 
 record_rights:
   - rights_type: "generic"
     holder:
+      legal_body_type: "corporate"
       id: "isni:0000000121547935"
       title: "Instituto do Patrimônio Histórico e Artístico Nacional"
       alt_name:
@@ -36,7 +42,7 @@ record_rights:
       title: "Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)"
     earliest_date:
       date_type: exact
-      date_value: *RECORD_DATE  # Repete a data informada acima.
+      date_value: *RECORD_DATE
     holder:
       id: "doi:10.13039/100008994"
       title: "Fundação Universidade de Brasília"

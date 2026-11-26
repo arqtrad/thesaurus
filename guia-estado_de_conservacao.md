@@ -20,7 +20,7 @@ mapping:
     mapping_match: "close"
     title: "<single built works by condition>"
   - refid: "https://vocab.getty.edu/aat/300004795"
-    mapping_match: "broader"
+    mapping_match: "broad"
     title: "<single built works by specific type>"
 
 record_rights:

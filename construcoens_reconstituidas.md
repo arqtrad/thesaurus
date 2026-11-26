@@ -13,7 +13,7 @@ bibliographic_citation:
   - citekey: "@getty:aat300418052"
 
 broader:
-  - refid: "guia-estado_de_conservacao"
+  - refid: "guia-estado_de_preservacao"
     refid_type: "local"
     broader_match: "generic"
     broader_preferred: true
