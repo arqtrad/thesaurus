@@ -43,10 +43,12 @@ concept_type: "concept"
 bibliographic_citation:
   - citekey: "@assumpcao:1915diccionario"
     note: "p. 5"
+  - citekey: "@getty:aat300081138"
 
 mapping:
   - refid: "https://vocab.getty.edu/aat/300081138"
     mapping_match: "exact"
+    title: "adobe (bricks material)"
   - refid: "wd:Q183496"
     mapping_match: "exact"
   - refid: "http://vocabularies.unesco.org/thesaurus/concept17023"
@@ -62,6 +64,13 @@ record_rights:
       legal_body_type: "corporate"
       id: "https://isni.org/isni/0000000121076862"
       title: "Getty Research Institute"
+      identifiers:
+        - refid: "isni:0000000121076862"
+          refid_type: "uri"
+          title: "ISNI"
+        - refid: "wd:Q5554720"
+          refid_type: "uri"
+          title: "Wikidata (Getty Vocabulary Program)"
     statement:
       refid: "http://opendatacommons.org/licenses/by/1.0/"
       title: "Open Data Commons Attribution License (ODC-By) v1.0"
@@ -106,7 +115,7 @@ record_rights:
 > China e Américas pré-colombianas. 
 > Para blocos secos ao sol que podem ou não conter os aglomerantes do adobe, 
 > utilize o termo mais genérico "blocos seco ao sol".
-> [@getty:2017art]
+> [@getty:aat300081138]
 
 No Brasil, os adobes históricos foram produzidos em várias dimensões,
 sendo as mais comuns cerca de 2 palmos de comprido por
